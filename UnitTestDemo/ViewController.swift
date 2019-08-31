@@ -31,9 +31,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
     func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         if (textField.tag == 1){
             let currentCharacterCount = textField.text?.count ?? 0
-            if range.length + range.location > currentCharacterCount {
-                return false
-            }
             let newLength = currentCharacterCount + string.count - range.length
             return newLength <= maxNumCharacters
         }
