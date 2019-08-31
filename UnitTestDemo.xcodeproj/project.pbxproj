@@ -14,6 +14,8 @@
 		77DA3B2622E9FCA10067A523 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77DA3B2422E9FCA10067A523 /* LaunchScreen.storyboard */; };
 		77DA3B3122E9FCA10067A523 /* UnitTestDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DA3B3022E9FCA10067A523 /* UnitTestDemoTests.swift */; };
 		77DA3B3C22E9FCA10067A523 /* UnitTestDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DA3B3B22E9FCA10067A523 /* UnitTestDemoUITests.swift */; };
+		77DA3B4B22EA0A290067A523 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77DA3B1F22E9FCA00067A523 /* Main.storyboard */; };
+		77DA3B4C22EA0A2A0067A523 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77DA3B1F22E9FCA00067A523 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -239,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77DA3B4B22EA0A290067A523 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77DA3B4C22EA0A2A0067A523 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
